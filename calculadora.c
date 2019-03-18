@@ -6,20 +6,22 @@ int sum(int num1, int num2){
   return result;
 }
 
-
-
 int subtraction(int a, int b) {
   int result;
   result = a-b;
 	return result;
 }
 
-
 double divider(double n1, double n2){
   double result;
   result = n1/n2;
 	return result;
 }
+
+int mult (double a, double b){
+	return a * b;
+}
+
 
 int main(){
   int num1, num2, soma, subt;
