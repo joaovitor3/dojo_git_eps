@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 int main{
- int a, b, c;
+ int a, b, c, k;
 
  printf("Coloque o primeiro numero\n";
  scanf("%d", &a);
@@ -15,6 +15,13 @@ int main{
 
  printf("Soma deu  %d\n", c); 
 
- return 0;
+
+ k = a*b;
+  
+
+ printf("Hello world mult: axb = %d\n",k);
+  
+
+ return (0);
 
 }
